@@ -173,10 +173,23 @@ void mostrarDados(void){
       if(superP1 > superP2){
         printf("Super Poder: (%lu) Carta 1 (%s) venceu!\n", superP1, cidade1);
     } else {
-        printf("Super Poder: (%lu) Carta 2 (%s) venceu!\n", superP2, cidade2);
+        printf("Super Poder: (%lu) Carta 2 (%s) venceu!\n\n", superP2, cidade2);
     }
 
+    printf("_______________________________________\n");
+    printf("__________!!!!O CAMPEÃO É!!!!__________\n");
+    printf("_______________________________________\n\n");
 
+      if(superP1 > superP2){
+        printf("Carta Vencedora: (%s)\n", cidade1);
+    } else {
+        printf("Carta Vencedora: (%s)\n\n", cidade2);
+    }
+ 
+
+    printf("_______________________________________\n");
+    printf("__________________FIM__________________\n");
+    printf("_______________________________________\n\n");
 
   
            
